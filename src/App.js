@@ -15,7 +15,7 @@ function Header() {
 
 function MainContent() {
     return(
-        <div>
+        <div className="container-fluid">
         <div id="me"><img src={me} alt={"me"}/></div>
         <p>I was born in Chicago, then moved to New York City at age two, then called Toronto home since I was four and a half.</p>
 
@@ -29,7 +29,7 @@ function MainContent() {
 }
 
 const slideshowProperties = {
-    duration: 2000,
+    duration: 5000,
     transitionDuration: 800,
     infinite: true,
     indicators: true,
@@ -38,31 +38,31 @@ const slideshowProperties = {
 
 function Slideshow() {
     return(
-        <div id="parent">
+        <div className="container-fluid" id="parent">
         <p>Outside of school, photography is my favourite pastime. I do a lot of urban/nature photography. These photos were taken on an iPhone SE and iPhone 8.</p>
         <Slide {...slideshowProperties}>
         <div className="slides">
-            <img src={require('./images/IMG_0081.jpg')} alt="image1"/>
+            <img src={require('./images/IMG_0081.jpg')} alt={"image1"}/>
         </div>
 
         <div className="slides">
-            <img src={require('./images/IMG_0097.jpg')} alt="image2"/>
+            <img src={require('./images/IMG_0097.jpg')} alt={"image2"}/>
         </div>
 
         <div className="slides">
-            <img src={require('./images/IMG_0357.jpg')} alt="image3"/>
+            <img src={require('./images/IMG_0357.jpg')} alt={"image3"}/>
         </div>
 
         <div className="slides">
-            <img src={require('./images/IMG_0358.jpg')} alt="image4"/>
+            <img src={require('./images/IMG_0358.jpg')} alt={"image4"}/>
         </div>
 
         <div className="slides">
-            <img src={require('./images/IMG_0410.jpg')} alt="image5"/>
+            <img src={require('./images/IMG_0410.jpg')} alt={"image5"}/>
         </div>
 
         <div className="slides">
-            <img src={require('./images/IMG_1202.jpg')} alt="image6"/>
+            <img src={require('./images/IMG_1202.jpg')} alt={"image6"}/>
         </div>
 
         <div className="slides">
@@ -113,7 +113,7 @@ function Slideshow() {
 
 function Photography() {
     return(
-        <div>
+        <div className="container-fluid">
             <h1 className="header">Photography</h1>
             <Slideshow />
         </div>
@@ -122,7 +122,7 @@ function Photography() {
 
 function ProjectSlideshow() {
     return(
-        <div id="projects">
+        <div className="container-fluid" id="projects">
         <Slide {...slideshowProperties}>
         <div className="slides">
             <img src={require('./projects/onaroll.png')} alt="onaroll"/>
@@ -142,7 +142,7 @@ function ProjectSlideshow() {
 
 function Projects() {
     return(
-        <div>
+        <div className="container-fluid">
             <h1 className="header">Projects</h1>
             <ProjectSlideshow/>
         </div>
@@ -151,7 +151,7 @@ function Projects() {
 
 function Courses() {
     return(
-        <div className="courses-list">
+        <div className="container-fluid" id="courses-list">
             <h1 className="header">Relevant Courses</h1>
             <ul>
             <li><b>CSC258</b> Computer Organization</li>
@@ -176,7 +176,7 @@ function Courses() {
 
 function Experience() {
     return(
-        <div>
+        <div className="container-fluid">
             <h1 className="header">Experience</h1>
         </div>
     )
