@@ -9,6 +9,7 @@ function Header() {
     return (
         <div>
             <h1 className="header">Hi! I'm Monica.</h1>
+            <h2 className="subHeader" id="slogan">Software developer. Learner. Environmentalist. Researcher.</h2>
         </div>
     ); 
 }
@@ -135,6 +136,19 @@ function ProjectSlideshow() {
             <h2 className="subHeader">Space Shooter</h2>
             <p>A first-person shooter game made in Unity. The player must shoot as many asteroids as possible while simultaneously avoiding being hit by an asteroid.</p>
         </div>
+            
+        <div className="slides">
+            <img src={require('./projects/cleancity.png')} alt="ccgc"/>
+            <h2 className="subHeader">Clean City, Green City</h2>
+            <p>An educational game to teach people (particularly young children) about waste management and sustainability. Developed for the CSC299 research course at the University of Toronto under the supervision of Prof. Steve Engels.</p>
+        </div>
+
+        <div className="slides">
+            <img src={require('./projects/afsk2.png')} alt="football"/>
+            <h2 className="subHeader">American Football Score Keeper</h2>
+            <p>A simple Android app to keep track of scores for a game of American football.</p>
+        </div>
+                      
         </Slide>
         </div>
     );
