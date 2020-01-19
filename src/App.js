@@ -11,7 +11,7 @@ function Header() {
             <h1 className="header">Hi! I'm Monica.</h1>
             <h2 className="subHeader" id="slogan">Software developer. Learner. Environmentalist. Researcher.</h2>
         </div>
-    ); 
+    );
 }
 
 function MainContent() {
@@ -20,7 +20,7 @@ function MainContent() {
         <div id="me"><img src={me} alt={"me"}/></div>
         <p>I was born in Chicago, then moved to New York City at age two, then called Toronto home since I was four and a half.</p>
 
-        <p>Ever since I was a kid, I was very fascinated by computers and aspired to be a software developer. I spent countless hours learning about the different parts of a computer and even offered a helping hand to friends and family to address any of their computer-related issues. At the age of ten, I started learning HTML, and that’s where my passion for software development grew.</p>  
+        <p>Ever since I was a kid, I was very fascinated by computers and aspired to be a software developer. I spent countless hours learning about the different parts of a computer and even offered a helping hand to friends and family to address any of their computer-related issues. At the age of ten, I started learning HTML, and that’s where my passion for software development grew.</p>
 
         <p>I am a computer science major at the University of Toronto, with minors in environmental geography and environmental studies. I strongly believe that CS can help address and solve environmental issues because CS involves a lot of problem solving using programs and algorithms. I am primarily interested in how software engineering can be applied to the environment. I have internship experience at CIBC and undergraduate research experience at UofT, doing CS-related research for two different professors.</p>
 
@@ -34,7 +34,7 @@ const slideshowProperties = {
     transitionDuration: 800,
     infinite: true,
     indicators: true,
-    arrows: true, 
+    arrows: true,
 }
 
 function Slideshow() {
@@ -89,7 +89,7 @@ function Slideshow() {
         <div className="slides">
             <img src={require('./images/IMG_5479.jpeg')} alt="image12"/>
         </div>
-        
+
         <div className="slides">
             <img src={require('./images/IMG_0922.jpeg')} alt="image13"/>
         </div>
@@ -105,7 +105,7 @@ function Slideshow() {
         <div className="slides">
             <img src={require('./images/IMG_7220.jpeg')} alt="image16"/>
         </div>
-                      
+
         </Slide>
         <p>You can check out more of my photos on my Instagram <a href="https://www.instagram.com/monicaiqbal/" target="_blank" rel="noopener noreferrer">@monicaiqbal!</a></p>
         </div>
@@ -130,13 +130,13 @@ function ProjectSlideshow() {
             <h2 className="subHeader">On-a-Roll!</h2>
             <p>A simple, roll-a-ball game made using Unity. The player rolls a ball and must collect all cubes to win </p>
         </div>
-        
+
         <div className="slides">
             <img src={require('./projects/spaceshooter.png')} alt="spaceshooter"/>
             <h2 className="subHeader">Space Shooter</h2>
             <p>A first-person shooter game made in Unity. The player must shoot as many asteroids as possible while simultaneously avoiding being hit by an asteroid.</p>
         </div>
-            
+
         <div className="slides">
             <img src={require('./projects/cleancity.png')} alt="ccgc"/>
             <h2 className="subHeader">Clean City, Green City</h2>
@@ -148,7 +148,7 @@ function ProjectSlideshow() {
             <h2 className="subHeader">American Football Score Keeper</h2>
             <p>A simple Android app to keep track of scores for a game of American football.</p>
         </div>
-                      
+
         </Slide>
         </div>
     );
@@ -192,6 +192,12 @@ function Experience() {
     return(
         <div className="container-fluid">
             <h1 className="header">Experience</h1>
+            <p>I have taken on research and development roles, including the following:</p>
+            <ul>
+            <li><b>Mobile Developer</b> at UofT's MADLab</li>
+            <li><b>Test Analyst</b> at CIBC</li>
+            <li><b>Research Assistant</b> for Steve Engels and Brad Bass at UofT</li>
+            </ul>
         </div>
     )
 }
@@ -228,34 +234,34 @@ function App() {
     <div id="content">
     <Header/>
     <MainContent/>
-    </div> 
-      
+    </div>
+
     <hr></hr>
-      
+
     <div id = "photography">
       <Photography/>
     </div>
-      
-    <hr></hr>  
-      
+
+    <hr></hr>
+
     <div id="projects">
       <Projects/>
     </div>
-      
+
     <hr></hr>
-      
+
     <div id="courses">
     <Courses/>
     </div>
-      
+
     <hr></hr>
-    
+
     <div id="exp">
     <Experience/>
     </div>
-      
+
     <hr></hr>
-      
+
     <div id="social-media-buttons">
         <p>Let's get in touch!</p>
         <a href="http://twitter.com/infinitebliss_2" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter fa-2x"></i></a>
@@ -265,7 +271,7 @@ function App() {
         <a href="mailto:monica.iqbal@mail.utoronto.ca" target="_blank" rel="noopener noreferrer"><i className="fas fa-envelope fa-2x"></i></a>
     </div>
     </body>
-      
+
   );
 }
 
