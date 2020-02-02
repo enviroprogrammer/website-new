@@ -150,6 +150,12 @@ function ProjectSlideshow() {
             <p>A simple Android app to keep track of scores for a game of American football.</p>
         </div>
 
+        <div className="slides">
+            <img src={require('./projects/abcbookstore.png')} alt="football"/>
+            <h2 className="subHeader">ABC Bookstore Business Card</h2>
+            <p>A front-end Android application that acts as a business card for ABC Bookstore, a fictional business. Created using XML.</p>
+        </div>
+
         </Slide>
         </div>
     );
