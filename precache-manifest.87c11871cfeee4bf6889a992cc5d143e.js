@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d13d03d3205f61b2344bfef9720751f",
+    "revision": "a62f5fe30efaef8e592ddc1d04a224a2",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.fe93794d.chunk.css"
   },
   {
-    "revision": "5dda21f2896bdfc2460b",
+    "revision": "e9b86629de73a80f19bd",
     "url": "/static/css/main.ce990698.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0dc335e2.chunk.js"
   },
   {
-    "revision": "5dda21f2896bdfc2460b",
-    "url": "/static/js/main.af7774cb.chunk.js"
+    "revision": "e9b86629de73a80f19bd",
+    "url": "/static/js/main.b919f40c.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b2deda44a58b47d6c5ffc9eeeafb4027",
     "url": "/static/media/IMG_8511.b2deda44.jpeg"
+  },
+  {
+    "revision": "beab5590f297c578eb0c0fde657ab583",
+    "url": "/static/media/abcbookstore.beab5590.png"
   },
   {
     "revision": "c3a31f7b271f6793d7abf6f895dcb8ee",
