@@ -32,7 +32,8 @@ function MainContent() {
 const slideshowProperties = {
     duration: 5000,
     transitionDuration: 800,
-    infinite: true,
+    infinite: false,
+    autoplay: false,
     indicators: true,
     arrows: true,
 }
@@ -192,12 +193,15 @@ function Experience() {
     return(
         <div className="container-fluid">
             <h1 className="header">Experience</h1>
-            <p>I have taken on research and development roles, including the following:</p>
+            <p>I have taken on a number of different research and development roles during my undergrad at UofT, including the following:</p>
             <ul>
             <li><b>Mobile Developer</b> at UofT's MADLab</li>
             <li><b>Test Analyst</b> at CIBC</li>
             <li><b>Research Assistant</b> for Steve Engels and Brad Bass at UofT</li>
             </ul>
+            <p>I have written
+            many research papers, including
+            a <a href="https://landmarksjournal.geog.utoronto.ca/wp-content/uploads/2019/06/Iqbal-2019-Impervious-Surfaces.pdf" target="_blank">paper</a> published to UofT's Landmarks Journal!</p>
         </div>
     )
 }

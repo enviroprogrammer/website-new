@@ -19,7 +19,7 @@
     font-size: 20px;
 }
 
-hr { 
+hr {
     border: 0;
     height: 10px;
     box-shadow: 0 0 20px 2.5px black;
@@ -37,7 +37,7 @@ hr {
 #photography {
     font-family: "Nunito", sans-serif;
     font-size: 20px;
-    text-align: center; 
+    text-align: center;
     height: auto;
     background-color: transparent;
 }
@@ -118,7 +118,7 @@ ul {
 
 .bg {
     background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);    
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     background-size: auto;
     background-repeat: no-repeat;
     height: 100%;
@@ -182,7 +182,10 @@ li.dropdown {
     display: inline-block;
 }
 img {
-    width: 30%;
+    height: auto;
+    max-height: 400px;
+    width: auto;
+    max-width: 400px;
 }
 
 #me {
@@ -220,4 +223,3 @@ img {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
