@@ -1,8 +1,9 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image'
-import { Link, animateScroll as scroll } from "react-scroll";
 import './App.css';
+import { Link } from 'react-scroll'
 import me from './AL5_8598.png';
+import resume from './mi-resume.pdf';
 
 
 function Header() {
@@ -190,6 +191,11 @@ function Courses() {
             <li><b>CSC148</b> Intro to Computer Science</li>
             <li><b>CSC165</b> Math Expression & Reasoning for CS</li>
             <li><b>ENV100</b> Intro to Environmental Studies</li>
+            <li><b>CSC301</b> Intro to Software Engineering</li>
+            <li><b>ENV335</b> Environmental Design</li>
+            <li><b>ENV307</b> Urban sustainability</li>
+            <li><b>ENV350</b> Energy Policy</li>
+            <li><b>CSC428</b> Human-Computer Interaction</li>
             </ul>
         </div>
     )
@@ -206,8 +212,9 @@ function Experience() {
             <li><b>Research Assistant</b> for Steve Engels and Brad Bass at UofT</li>
             </ul>
             <p>I have written
-            many research papers, including
-            a <a href="https://landmarksjournal.geog.utoronto.ca/wp-content/uploads/2019/06/Iqbal-2019-Impervious-Surfaces.pdf" target="_blank">paper</a> published to UofT's Landmarks Journal!</p>
+            many research papers pertaining to environmetal issues and geography, including
+            a <a href="https://landmarksjournal.geog.utoronto.ca/wp-content/uploads/2019/06/Iqbal-2019-Impervious-Surfaces.pdf" target="_blank" rel="noopener noreferrer">paper</a> published to UofT's Landmarks Journal!</p>
+            <p>Check out my <a href={resume} target="_blank" rel="noopener noreferrer">resume</a> to know more about my experiences!</p>
         </div>
     )
 }
