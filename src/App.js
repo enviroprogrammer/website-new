@@ -24,7 +24,7 @@ function MainContent() {
 
         <p>I am a recent graduate from the University of Toronto who majored in computer science with minors in environmental geography and environmental studies. I strongly believe that CS can help address and solve environmental issues because CS involves a lot of problem solving using programs and algorithms. I am primarily interested in how software engineering can be applied to the environment. I have internship experience at CIBC and undergraduate research experience at UofT, doing CS-related research for two different professors.</p>
 
-        <p>When not drowning in school work, I enjoy photography, nature walks, listening to music, reading, and writing. I am also an avid watcher of major sporting events such as the Olympics and the FIFA World Cup. In addition, I love to drink tea, especially chamomile and orange pekoe.</p>
+        <p>In my spare time, I enjoy photography, nature walks, talking to my friends/family, listening to music, reading, and writing. I am also an avid watcher of major sporting events such as the Olympics and the FIFA World Cup. In addition, I love to drink tea, especially chamomile and orange pekoe.</p>
         </div>
     );
 }
