@@ -10,7 +10,7 @@ function Header() {
     return (
         <div>
             <h1 className="header">Hi! I'm Monica.</h1>
-            <h2 className="subHeader" id="slogan">Software developer. Learner. Environmentalist. Researcher.</h2>
+            <h2 className="subHeader" id="slogan">Software developer. Lifelong learner. Environmentalist. Researcher.</h2>
         </div>
     );
 }
@@ -23,7 +23,9 @@ function MainContent() {
 
         <p>Ever since I was a kid, I was very fascinated by computers and aspired to be a software developer. I spent countless hours learning about the different parts of a computer and even offered a helping hand to friends and family to address any of their computer-related issues. At the age of ten, I started learning HTML, and that’s where my passion for software development grew.</p>
 
-        <p>I am a recent graduate from the University of Toronto who majored in computer science with minors in environmental geography and environmental studies. I strongly believe that CS can help address and solve environmental issues because CS involves a lot of problem solving using programs and algorithms. I am primarily interested in how software engineering can be applied to the environment. I have internship experience at CIBC and undergraduate research experience at UofT, doing CS-related research for two different professors.</p>
+        <p>I am a recent graduate from the University of Toronto. I majored in computer science, with minors in environmental geography and environmental studies. I strongly believe that CS can help address and solve environmental issues because CS involves a lot of problem solving using programs and algorithms.</p>
+
+        <p>To apply the skills I've learned in the classroom, I look for as many opportunities as I can find. I have internship experience at CIBC and undergraduate research experience at UofT. I also took on two on-campus jobs related to CS; one as an IT assistant and another as a mobile developer. I am a firm believer that learning extends beyond lectures (and beyond undergrad).</p>
 
         <p>In my spare time, I enjoy photography, nature walks, talking to my friends/family, listening to music, reading, and writing. I am also an avid watcher of major sporting events such as the Olympics and the FIFA World Cup. In addition, I love to drink tea, especially chamomile and orange pekoe.</p>
         </div>
