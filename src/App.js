@@ -2,7 +2,7 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image'
 import { Link, animateScroll as scroll } from "react-scroll";
 import './App.css';
-import me from './monica.jpg';
+import me from './AL5_8598.png';
 
 
 function Header() {
@@ -22,7 +22,7 @@ function MainContent() {
 
         <p>Ever since I was a kid, I was very fascinated by computers and aspired to be a software developer. I spent countless hours learning about the different parts of a computer and even offered a helping hand to friends and family to address any of their computer-related issues. At the age of ten, I started learning HTML, and that’s where my passion for software development grew.</p>
 
-        <p>I am a computer science major at the University of Toronto, with minors in environmental geography and environmental studies. I strongly believe that CS can help address and solve environmental issues because CS involves a lot of problem solving using programs and algorithms. I am primarily interested in how software engineering can be applied to the environment. I have internship experience at CIBC and undergraduate research experience at UofT, doing CS-related research for two different professors.</p>
+        <p>I am a recent graduate from the University of Toronto who majored in computer science with minors in environmental geography and environmental studies. I strongly believe that CS can help address and solve environmental issues because CS involves a lot of problem solving using programs and algorithms. I am primarily interested in how software engineering can be applied to the environment. I have internship experience at CIBC and undergraduate research experience at UofT, doing CS-related research for two different professors.</p>
 
         <p>When not drowning in school work, I enjoy photography, nature walks, listening to music, reading, and writing. I am also an avid watcher of major sporting events such as the Olympics and the FIFA World Cup. In addition, I love to drink tea, especially chamomile and orange pekoe.</p>
         </div>
