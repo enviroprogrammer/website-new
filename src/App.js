@@ -5,7 +5,6 @@ import { Link } from 'react-scroll'
 import me from './AL5_8598.png';
 import resume from './mi-resume.pdf';
 
-
 function Header() {
     return (
         <div>
@@ -23,11 +22,11 @@ function MainContent() {
 
         <p>Ever since I was a kid, I was very fascinated by computers and aspired to be a software developer. I spent countless hours learning about the different parts of a computer and even offered a helping hand to friends and family to address any of their computer-related issues. At the age of ten, I started learning HTML, and that’s where my passion for software development grew.</p>
 
-        <p>I am a recent graduate from the University of Toronto. I majored in computer science, with minors in environmental geography and environmental studies. I strongly believe that CS can help address and solve environmental issues because CS involves a lot of problem solving using programs and algorithms.</p>
+        <p>I am a recent graduate from the University of Toronto. I received my HBSc in computer science, with minors in environmental geography and environmental studies. I strongly believe that CS can help address and solve environmental issues because CS involves a lot of problem solving using programs and algorithms.</p>
 
         <p>To apply the skills I've learned in the classroom, I look for as many opportunities as I can find. I have internship experience at CIBC and undergraduate research experience at UofT. I also took on two on-campus jobs related to CS; one as an IT assistant and another as a mobile developer. I am a firm believer that learning extends beyond lectures (and beyond undergrad).</p>
 
-        <p>In my spare time, I enjoy photography, nature walks, talking to my friends/family, listening to music, reading, and writing. I am also an avid watcher of major sporting events such as the Olympics and the FIFA World Cup. In addition, I love to drink tea, especially chamomile and orange pekoe.</p>
+        <p>In my spare time, I enjoy photography, nature walks, hanging out with friends and family, listening to music, playing board or video games, reading, and writing. I am also an avid watcher of major sporting events such as the Olympics and the FIFA World Cup. In addition, I love to drink tea, especially chamomile and orange pekoe.</p>
         </div>
     );
 }
@@ -203,24 +202,6 @@ function Courses() {
     )
 }
 
-function Experience() {
-    return(
-        <div className="container-fluid">
-            <h1 className="header">Experience</h1>
-            <p>I have taken on a number of different research and development roles during my undergrad at UofT, including the following:</p>
-            <ul>
-            <li><b>Mobile Developer</b> at UofT's MADLab</li>
-            <li><b>Test Analyst</b> at CIBC</li>
-            <li><b>Research Assistant</b> for Steve Engels and Brad Bass at UofT</li>
-            </ul>
-            <p>I have written
-            many research papers pertaining to environmetal issues and geography, including
-            a <a href="https://landmarksjournal.geog.utoronto.ca/wp-content/uploads/2019/06/Iqbal-2019-Impervious-Surfaces.pdf" target="_blank" rel="noopener noreferrer">paper</a> published to UofT's Landmarks Journal!</p>
-            <p>Check out my <a href={resume} target="_blank" rel="noopener noreferrer">resume</a> to know more about my experiences!</p>
-        </div>
-    )
-}
-
 function App() {
   return (
     <body className="bg">
@@ -243,7 +224,7 @@ function App() {
                             <Link activeClass="active" to="projects" spy={true} smooth={true} offset={20} duration={900}>Projects</Link>
                         </li>
                         <li><Link activeClass="active" to="courses" spy={true} smooth={true} offset={20} duration={900}>Relevant Courses</Link></li>
-                        <li><Link activeClass="active" to="exp" spy={true} smooth={true} offset={20} duration={900}>Experience</Link></li>
+                        <li><a href={resume} target="_blank" rel="noopener noreferrer">Resume</a></li>
                     </ul>
                 </div>
             </div>
@@ -275,19 +256,16 @@ function App() {
 
     <hr></hr>
 
-    <div id="exp">
-    <Experience/>
-    </div>
-
-    <hr></hr>
-
     <div id="social-media-buttons">
-        <p>Let's get in touch!</p>
+        <p>Questions? Comments? Let's get in touch!</p>
         <a href="http://twitter.com/infinitebliss_2" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter fa-2x"></i></a>
         <a href="http://github.com/enviroprogrammer" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-2x"></i></a>
         <a href="https://ca.linkedin.com/in/iqbalmonica" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-2x"></i></a>
         <a href="http://instagram.com/monicaiqbal" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram fa-2x"></i></a>
         <a href="mailto:monica.iqbal@mail.utoronto.ca" target="_blank" rel="noopener noreferrer"><i className="fas fa-envelope fa-2x"></i></a>
+        <p>
+        Website created using ReactJS
+        </p>
     </div>
     </body>
 
