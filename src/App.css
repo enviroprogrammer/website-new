@@ -22,12 +22,14 @@
 hr {
     border: 0;
     height: 10px;
-    box-shadow: 0 0 20px 2.5px black;
+    box-shadow: 0 0 20px 2.5px rgb(18, 53, 3);
 }
 
 
 #content {
-    font-family: "Nunito", sans-serif;
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;    
     font-size: 20px;
     text-align: center;
     height: auto;
@@ -35,7 +37,9 @@ hr {
 }
 
 #photography {
-    font-family: "Nunito", sans-serif;
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;      
     font-size: 20px;
     text-align: center;
     height: auto;
@@ -49,15 +53,18 @@ ul {
 }
 
 #projects {
-    font-family: "Nunito", sans-serif;
-    font-size: 20px;
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;  
     text-align: center;
     height: auto;
     background-color: transparent;
 }
 
-#courses {
-    font-family: "Nunito", sans-serif;
+#techstack {
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;      
     font-size: 20px;
     text-align: center;
     height: auto;
@@ -65,7 +72,9 @@ ul {
 }
 
 #exp {
-    font-family: "Nunito", sans-serif;
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;      
     font-size: 20px;
     text-align: center;
     height: auto;
@@ -108,17 +117,20 @@ ul {
 
 .header {
     font-size: 60px;
-    font-family: "Permanent Marker", cursive;
+    font-family: open-sans,sans-serif;
+    font-weight: 700;
+    font-style: normal;    
     text-align: center;
 }
 
 .subHeader {
-    font-family: "Permanent Marker", cursive;
+    font-family: open-sans,sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .bg {
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: rgb(158, 220, 153);
     background-size: auto;
     background-repeat: no-repeat;
     height: 100%;
@@ -130,16 +142,19 @@ ul {
 
 .navbar.navbar-inverse {
     background: none;
-    background-color: #EF5350;
     padding: 10px;
-    font-family: "Libre Franklin", sans-serif;
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;     
     font-size: 20px;
     border-radius: 0 !important;
     border-color: transparent;
 }
 
 #slogan {
-    font-family: "Libre Franklin", sans-serif;
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal; 
 }
 
 .navbar.navbar-inverse li {
@@ -195,7 +210,9 @@ img {
 }
 
 .navbar-brand {
-    font-family: 'Permanent Marker', sans-serif;
+    font-family: open-sans,sans-serif;
+    font-weight: 700;
+    font-style: normal;    
     font-size: 40px !important;
 }
 
