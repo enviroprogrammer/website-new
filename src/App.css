@@ -31,8 +31,11 @@ hr {
     font-weight: 400;
     font-style: normal;    
     font-size: 20px;
+    color: white;
     text-align: center;
-    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("website-bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: transparent;
 }
 
@@ -43,7 +46,10 @@ hr {
     font-size: 20px;
     text-align: center;
     height: auto;
+    color: #FFFFFF;
     background-color: transparent;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("website-bg-3.jpeg");
+    background-size: cover;
 }
 
 
@@ -55,10 +61,13 @@ ul {
 #projects {
     font-family: montserrat,sans-serif;
     font-weight: 400;
+    color: white;
     font-style: normal;  
     text-align: center;
     height: auto;
     background-color: transparent;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("website-bg-2.jpeg");
+    background-size: cover;
 }
 
 #techstack {
@@ -68,16 +77,9 @@ ul {
     font-size: 20px;
     text-align: center;
     height: auto;
-    background-color: transparent;
-}
-
-#exp {
-    font-family: montserrat,sans-serif;
-    font-weight: 400;
-    font-style: normal;      
-    font-size: 20px;
-    text-align: center;
-    height: auto;
+    color:#fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("website-bg-4.jpeg");
+    background-size: cover;
     background-color: transparent;
 }
 
@@ -130,14 +132,20 @@ ul {
 }
 
 .bg {
-    background: rgb(158, 220, 153);
-    background-size: auto;
-    background-repeat: no-repeat;
     height: 100%;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(150, 150, 150));
 }
 
 #social-media-buttons {
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
+    color: #fff;
+}
+
+.fa-2x {
+    color: #fff;
 }
 
 .navbar.navbar-inverse {
@@ -146,7 +154,7 @@ ul {
     font-family: montserrat,sans-serif;
     font-weight: 400;
     font-style: normal;     
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 0 !important;
     border-color: transparent;
 }
@@ -162,20 +170,22 @@ ul {
 }
 
 .navbar.navbar-inverse a {
-    color: #000;
+    color: #fff;
 }
 
 .nav.navbar-nav.navbar-right li a {
-    color: #000;
+    color: #fff;
 }
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-    color: #ffffff;
+    color: #000 !important;
+    text-decoration: underline;
 }
 
 ul.nav a:hover {
-    color: #ffffff !important;
+    color: #000000 !important;
+    text-decoration: underline !important;
 }
 
 li a,
@@ -213,7 +223,7 @@ img {
     font-family: open-sans,sans-serif;
     font-weight: 700;
     font-style: normal;    
-    font-size: 40px !important;
+    font-size: 20px !important;
 }
 
 .dropdown-content {
@@ -233,7 +243,11 @@ img {
 }
 
 .dropdown-content a:hover {
-    background-color: transparent;
+    background-color: linear-gradient();
+}
+
+#created {
+    margin-bottom: 0px !important;
 }
 
 .dropdown:hover .dropdown-content {
