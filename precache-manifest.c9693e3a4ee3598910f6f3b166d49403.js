@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b01e4902e78e402eab9af0f1e07c2eb2",
+    "revision": "477a175aa08f382bfffb93390b50ba17",
     "url": "/index.html"
   },
   {
-    "revision": "3c79488fc8cc7b84bc5b",
-    "url": "/static/css/main.ecc3bb0b.chunk.css"
+    "revision": "54333b2d709b8b3efc37",
+    "url": "/static/css/main.6bf32e84.chunk.css"
   },
   {
     "revision": "e0cbcdcb7a056773fcf9",
     "url": "/static/js/2.4a88d181.chunk.js"
   },
   {
-    "revision": "3c79488fc8cc7b84bc5b",
+    "revision": "54333b2d709b8b3efc37",
     "url": "/static/js/main.f709ce8f.chunk.js"
   },
   {
@@ -120,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/spaceshooter.7b624661.png"
   },
   {
-    "revision": "efe2b37210b33f90cb3b8978dae32640",
-    "url": "/static/media/website-bg-2.efe2b372.jpeg"
+    "revision": "e2da707015e0a0b42380bd7ce9ecb69d",
+    "url": "/static/media/website-bg-2.e2da7070.jpeg"
   },
   {
     "revision": "c9c0a4fe456a2af03a8ad60aa591a165",
@@ -132,7 +132,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/website-bg-4.53317c85.jpeg"
   },
   {
-    "revision": "24ea206b8da2b8b916c63fed288cd862",
-    "url": "/static/media/website-bg.24ea206b.jpeg"
+    "revision": "ed44f5b6f2bf9593794ee805461b0195",
+    "url": "/static/media/website-bg.ed44f5b6.jpeg"
   }
 ]);

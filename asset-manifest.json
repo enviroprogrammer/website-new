@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecc3bb0b.chunk.css",
+    "main.css": "/static/css/main.6bf32e84.chunk.css",
     "main.js": "/static/js/main.f709ce8f.chunk.js",
     "main.js.map": "/static/js/main.f709ce8f.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.4a88d181.chunk.js": "/static/js/2.4a88d181.chunk.js",
     "static/js/2.4a88d181.chunk.js.map": "/static/js/2.4a88d181.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b73779aee71067592993486b43112d1d.js": "/precache-manifest.b73779aee71067592993486b43112d1d.js",
+    "precache-manifest.c9693e3a4ee3598910f6f3b166d49403.js": "/precache-manifest.c9693e3a4ee3598910f6f3b166d49403.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ecc3bb0b.chunk.css.map": "/static/css/main.ecc3bb0b.chunk.css.map",
+    "static/css/main.6bf32e84.chunk.css.map": "/static/css/main.6bf32e84.chunk.css.map",
     "static/media/2021-05-12-120702982.jpeg": "/static/media/2021-05-12-120702982.c38cd355.jpeg",
     "static/media/2021-09-29-060644362.jpeg": "/static/media/2021-09-29-060644362.3fdde933.jpeg",
     "static/media/2021-09-29-061517121.jpeg": "/static/media/2021-09-29-061517121.043c6184.jpeg",
@@ -36,6 +36,6 @@
     "static/media/monica.jpeg": "/static/media/monica.bf14d1ad.jpeg",
     "static/media/onaroll.png": "/static/media/onaroll.0b14e9c2.png",
     "static/media/spaceshooter.png": "/static/media/spaceshooter.7b624661.png",
-    "static/media/App.css": "/static/media/website-bg.24ea206b.jpeg"
+    "static/media/App.css": "/static/media/website-bg.ed44f5b6.jpeg"
   }
 }
