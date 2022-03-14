@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15b527ab2ad59c25b4b21ae966068f88",
+    "revision": "2184f5d79b863a0ce9722f71c4611a75",
     "url": "/index.html"
   },
   {
-    "revision": "4b0541591f3d25b271a1",
+    "revision": "d44a7051b86de26f8ca4",
     "url": "/static/css/main.86b809f2.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.4a88d181.chunk.js"
   },
   {
-    "revision": "4b0541591f3d25b271a1",
-    "url": "/static/js/main.bc5e84af.chunk.js"
+    "revision": "d44a7051b86de26f8ca4",
+    "url": "/static/js/main.14929cee.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -106,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a4f0e2b43c34dde3c0a563dcc1555f12",
     "url": "/static/media/mi-resume.a4f0e2b4.pdf"
+  },
+  {
+    "revision": "bf14d1adf4574754bb52340da064aaf5",
+    "url": "/static/media/monica.bf14d1ad.jpeg"
   },
   {
     "revision": "0b14e9c2e49de885959913eaca8a1fb5",
