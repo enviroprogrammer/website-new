@@ -10,7 +10,7 @@
     "react-bootstrap": "^2.7.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^6.6.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-scroll": "^1.7.16",
     "react-slideshow-image": "^1.5.3",
     "typeface-overpass": "0.0.72"
