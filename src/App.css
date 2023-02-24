@@ -1,11 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito|Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 .App {
   text-align: center;
 }
 
+html, body, #root, .App {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+body {
+    position: relative;
+    text-align: center;
+    margin: 4em;
+}
+
 .App-header {
-  background-color: #282c34;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -19,76 +32,56 @@
     font-size: 20px;
 }
 
-hr {
-    border: 0;
-    height: 10px;
-    box-shadow: 0 0 20px 2.5px rgb(18, 53, 3);
-}
-
-
 #content {
-    font-family: montserrat,sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
     font-style: normal;    
     font-size: 20px;
     color: white;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("website-bg.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: transparent;
+    padding-bottom: 50px;
 }
-
-#photography {
-    font-family: montserrat,sans-serif;
-    font-weight: 400;
-    font-style: normal;      
-    font-size: 20px;
-    text-align: center;
-    height: auto;
-    color: #FFFFFF;
-    background-color: transparent;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("website-bg-3.jpeg");
-    background-size: cover;
-}
-
 
 ul {
     text-align: center;
     list-style-position: inside;
 }
 
-#projects {
-    font-family: montserrat,sans-serif;
-    font-weight: 400;
-    color: white;
-    font-style: normal;  
-    text-align: center;
-    height: auto;
-    background-color: transparent;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("website-bg-2.jpeg");
-    background-size: cover;
+.header {
+    text-align: left;
+    margin-left: 5vw;
+    padding-top: 15vh;
+    width: 90%;
+    position: relative;
+    height: 100vh;
 }
 
-#techstack {
-    font-family: montserrat,sans-serif;
+.work {
+    height: 100vh;
+}
+
+.photography {
+    height: 100vh;
+}
+
+.name {
+    font-family: 'Libre Baskerville', serif;
     font-weight: 400;
-    font-style: normal;      
-    font-size: 20px;
-    text-align: center;
-    height: auto;
-    color:#fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("website-bg-4.jpeg");
-    background-size: cover;
-    background-color: transparent;
+    font-size: 5vw;
+}
+
+.who, .what, .where, .when, .why, .how {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 5vh;
+}
+
+.roles {
+    font-size: 3vw;
 }
 
 ::selection {
     background: #FFFFFF;
-}
-
-.projects {
-    position: relative;
 }
 
 .fab {
@@ -103,26 +96,16 @@ ul {
     font-size: 1.5em;
 }
 
-#afsk1 {
-    width: 50%;
-    height: 50%;
-    overflow: hidden;
+.welcome {
+    font-size: 3vmin;
 }
 
 .fas:hover {
-    color: #C5CAE9;
+    color: #000000;
 }
 
 .fab:hover {
-    color: #C5CAE9;
-}
-
-.header {
-    font-size: 60px;
-    font-family: open-sans,sans-serif;
-    font-weight: 700;
-    font-style: normal;    
-    text-align: center;
+    color: #000000;
 }
 
 .subHeader {
@@ -133,15 +116,18 @@ ul {
 
 .bg {
     height: 100%;
-    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(150, 150, 150));
+    background-color: #61876E;
 }
 
 #social-media-buttons {
-    font-family: montserrat,sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    background-color: #3C6255;
     color: #fff;
+    padding: 18px;
+    width: 100%;
 }
 
 .fa-2x {
@@ -151,18 +137,12 @@ ul {
 .navbar.navbar-inverse {
     background: none;
     padding: 10px;
-    font-family: montserrat,sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
     font-style: normal;     
     font-size: 15px;
     border-radius: 0 !important;
     border-color: transparent;
-}
-
-#slogan {
-    font-family: montserrat,sans-serif;
-    font-weight: 400;
-    font-style: normal; 
 }
 
 .navbar.navbar-inverse li {
@@ -175,6 +155,10 @@ ul {
 
 .nav.navbar-nav.navbar-right li a {
     color: #fff;
+}
+
+#toastmasters {
+    color: #000000;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -206,21 +190,16 @@ li a:hover,
 li.dropdown {
     display: inline-block;
 }
-img {
-    height: auto;
-    max-height: 400px;
-    width: auto;
-    max-width: 400px;
-}
 
-#me {
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
+.me img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
 }
 
 .navbar-brand {
-    font-family: open-sans,sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-style: normal;    
     font-size: 20px !important;
@@ -240,14 +219,6 @@ img {
     text-decoration: none;
     display: block;
     text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: linear-gradient();
-}
-
-#created {
-    margin-bottom: 0px !important;
 }
 
 .dropdown:hover .dropdown-content {

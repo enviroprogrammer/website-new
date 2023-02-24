@@ -4,9 +4,12 @@
   "private": true,
   "homepage": "https://monicaiqbal.ca",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "hover.css": "^2.3.2",
     "react": "^16.13.1",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^6.6.1",
     "react-scripts": "3.0.1",
     "react-scroll": "^1.7.16",
     "react-slideshow-image": "^1.5.3",
