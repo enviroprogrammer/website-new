@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import resume from './mi-resume.pdf';
+import resume from './mi-resume-2023.pdf';
 import About from './About.js';
 import Work from "./Work.js";
 import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
