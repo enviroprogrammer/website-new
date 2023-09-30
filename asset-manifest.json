@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b8775e30.css",
-    "main.js": "/static/js/main.8161bfc4.js",
+    "main.js": "/static/js/main.215017f0.js",
     "static/media/DSC00358.JPG": "/static/media/DSC00358.5a480597755bb40b7611.JPG",
     "static/media/IMG_4618.JPG": "/static/media/IMG_4618.1427e14aefcb884ebea5.JPG",
     "static/media/foliage 4.jpg": "/static/media/foliage 4.1aaf9b85493f146cc3d7.jpg",
@@ -16,10 +16,10 @@
     "static/media/mi-resume-2023.pdf": "/static/media/mi-resume-2023.801094f4eae065752ad3.pdf",
     "index.html": "/index.html",
     "main.b8775e30.css.map": "/static/css/main.b8775e30.css.map",
-    "main.8161bfc4.js.map": "/static/js/main.8161bfc4.js.map"
+    "main.215017f0.js.map": "/static/js/main.215017f0.js.map"
   },
   "entrypoints": [
     "static/css/main.b8775e30.css",
-    "static/js/main.8161bfc4.js"
+    "static/js/main.215017f0.js"
   ]
 }
