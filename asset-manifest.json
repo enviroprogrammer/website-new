@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7ac2da5.css",
-    "main.js": "/static/js/main.c388e7d2.js",
+    "main.css": "/static/css/main.b8775e30.css",
+    "main.js": "/static/js/main.4cac7962.js",
+    "static/media/DSC00358.JPG": "/static/media/DSC00358.5a480597755bb40b7611.JPG",
+    "static/media/IMG_4618.JPG": "/static/media/IMG_4618.1427e14aefcb884ebea5.JPG",
+    "static/media/foliage 4.jpg": "/static/media/foliage 4.1aaf9b85493f146cc3d7.jpg",
+    "static/media/DSC00310.JPG": "/static/media/DSC00310.4e7f5177b3124d9f50c1.JPG",
     "static/media/DSC00986.JPG": "/static/media/DSC00986.f1b1301d01ff01ba589c.JPG",
+    "static/media/DSC00384.JPG": "/static/media/DSC00384.20cf20ede6763b1744db.JPG",
+    "static/media/DSC01331.JPG": "/static/media/DSC01331.ab0f2505625cc9c5be0b.JPG",
     "static/media/DSC01042.JPG": "/static/media/DSC01042.9a62cd4de9be47b0897e.JPG",
+    "static/media/DSC02558.jpg": "/static/media/DSC02558.74e5e1370f904282ce34.jpg",
     "static/media/DSC00706.JPG": "/static/media/DSC00706.cd550ff1ad47595559fc.JPG",
     "static/media/monica.jpg": "/static/media/monica.294e320c8cea4e4e4e87.jpg",
     "static/media/mi-resume-2023.pdf": "/static/media/mi-resume-2023.801094f4eae065752ad3.pdf",
     "index.html": "/index.html",
-    "main.f7ac2da5.css.map": "/static/css/main.f7ac2da5.css.map",
-    "main.c388e7d2.js.map": "/static/js/main.c388e7d2.js.map"
+    "main.b8775e30.css.map": "/static/css/main.b8775e30.css.map",
+    "main.4cac7962.js.map": "/static/js/main.4cac7962.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7ac2da5.css",
-    "static/js/main.c388e7d2.js"
+    "static/css/main.b8775e30.css",
+    "static/js/main.4cac7962.js"
   ]
 }
