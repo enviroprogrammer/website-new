@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b8775e30.css",
-    "main.js": "/static/js/main.b79d8fcf.js",
+    "main.js": "/static/js/main.6c47c8f6.js",
     "static/media/DSC00358.JPG": "/static/media/DSC00358.5a480597755bb40b7611.JPG",
     "static/media/IMG_4618.JPG": "/static/media/IMG_4618.1427e14aefcb884ebea5.JPG",
     "static/media/foliage 4.jpg": "/static/media/foliage 4.1aaf9b85493f146cc3d7.jpg",
@@ -13,13 +13,21 @@
     "static/media/DSC02558.jpg": "/static/media/DSC02558.74e5e1370f904282ce34.jpg",
     "static/media/DSC00706.JPG": "/static/media/DSC00706.cd550ff1ad47595559fc.JPG",
     "static/media/monica.jpg": "/static/media/monica.294e320c8cea4e4e4e87.jpg",
+    "static/media/clean kangaroo desktop.png": "/static/media/clean kangaroo desktop.edc8eae2e90c8fbad15e.png",
+    "static/media/when2meet redesign.png": "/static/media/when2meet redesign.dd335521ad3c9734d28e.png",
+    "static/media/wish redesign.png": "/static/media/wish redesign.f40363bcca212e79d462.png",
+    "static/media/clean kangaroo.png": "/static/media/clean kangaroo.bd295e4248a096d71650.png",
+    "static/media/hypracycle.png": "/static/media/hypracycle.300e3c5146fd86b1f1e7.png",
     "static/media/mi-resume-2023.pdf": "/static/media/mi-resume-2023.801094f4eae065752ad3.pdf",
+    "static/media/impervious surfaces.png": "/static/media/impervious surfaces.eb24635677c7862fd376.png",
+    "static/media/delorean.png": "/static/media/delorean.e71efa7b5e8a64607c10.png",
+    "static/media/plaome.png": "/static/media/plaome.8f7ddaa5a6459254573c.png",
     "index.html": "/index.html",
     "main.b8775e30.css.map": "/static/css/main.b8775e30.css.map",
-    "main.b79d8fcf.js.map": "/static/js/main.b79d8fcf.js.map"
+    "main.6c47c8f6.js.map": "/static/js/main.6c47c8f6.js.map"
   },
   "entrypoints": [
     "static/css/main.b8775e30.css",
-    "static/js/main.b79d8fcf.js"
+    "static/js/main.6c47c8f6.js"
   ]
 }
