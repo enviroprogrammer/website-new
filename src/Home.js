@@ -3,14 +3,14 @@ import './App.css';
 import resume from './mi-resume-2023.pdf';
 import About from './About.js';
 import Work from "./Work.js";
-import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
+import {HashRouter, Link, Route, Routes} from "react-router-dom";
 import Header from "./Header";
 import Photography from "./Photography";
 
 function Home() {
   return (
     <body className="bg">
-    <BrowserRouter>
+    <HashRouter>
         <div id="content">
             <div className="sidebar-nav">
                 <div className="navbar navbar-inverse" role="navigation">
@@ -31,7 +31,7 @@ function Home() {
                                 <li><Link to="/work">Work</Link></li>
                                 <li><Link to="/photography">Photography</Link></li>
                                 <li><Link to="/about">About</Link></li>
-                                <li><Link to={resume} target="_blank" rel="noopener noreferrer">Resume</Link></li>
+                                <li><a href={resume} target="_blank" rel="noopener noreferrer">Resume</a></li>
                             </ul>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ function Home() {
                 <Route exact path='/photography' element={<Photography />}></Route>
             </Routes>
         </div>
-    </BrowserRouter>
+    </HashRouter>
 
     <div id="social-media-buttons">
         <a href="http://github.com/enviroprogrammer" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-2x"></i></a>
