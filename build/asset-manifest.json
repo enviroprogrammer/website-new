@@ -1,17 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd9d886f.chunk.css",
-    "main.js": "/static/js/main.fc353572.chunk.js",
-    "main.js.map": "/static/js/main.fc353572.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.0d986144.chunk.js": "/static/js/2.0d986144.chunk.js",
-    "static/js/2.0d986144.chunk.js.map": "/static/js/2.0d986144.chunk.js.map",
+    "main.css": "/static/css/main.f2633e41.css",
+    "main.js": "/static/js/main.522dd21f.js",
+    "static/media/DSC00358.JPG": "/static/media/DSC00358.5a480597755bb40b7611.JPG",
+    "static/media/IMG_4618.JPG": "/static/media/IMG_4618.1427e14aefcb884ebea5.JPG",
+    "static/media/DSC03462.JPG": "/static/media/DSC03462.e9305cd64b9568e7104d.JPG",
+    "static/media/foliage 4.jpg": "/static/media/foliage 4.1aaf9b85493f146cc3d7.jpg",
+    "static/media/DSC00310.JPG": "/static/media/DSC00310.4e7f5177b3124d9f50c1.JPG",
+    "static/media/DSC00986.JPG": "/static/media/DSC00986.f1b1301d01ff01ba589c.JPG",
+    "static/media/DSC02500.JPG": "/static/media/DSC02500.184eaa3074a8a696e71f.JPG",
+    "static/media/DSC00384.JPG": "/static/media/DSC00384.20cf20ede6763b1744db.JPG",
+    "static/media/DSC01331.JPG": "/static/media/DSC01331.ab0f2505625cc9c5be0b.JPG",
+    "static/media/DSC01042.JPG": "/static/media/DSC01042.9a62cd4de9be47b0897e.JPG",
+    "static/media/DSC02014.JPG": "/static/media/DSC02014.2b25a8cb96a9b2376f64.JPG",
+    "static/media/DSC02670.jpg": "/static/media/DSC02670.da2b751255dc550f8b45.jpg",
+    "static/media/DSC03310.JPG": "/static/media/DSC03310.a7f616070c8272e09e93.JPG",
+    "static/media/DSC02558.jpg": "/static/media/DSC02558.74e5e1370f904282ce34.jpg",
+    "static/media/DSC00706.JPG": "/static/media/DSC00706.cd550ff1ad47595559fc.JPG",
+    "static/media/monica.jpg": "/static/media/monica.294e320c8cea4e4e4e87.jpg",
+    "static/media/toastmasters election promo dec 22.png": "/static/media/toastmasters election promo dec 22.b662202c181005abf2c5.png",
+    "static/media/clean kangaroo desktop.png": "/static/media/clean kangaroo desktop.edc8eae2e90c8fbad15e.png",
+    "static/media/impervious surfaces.png": "/static/media/impervious surfaces.1e100d76e7f9d80fb895.png",
+    "static/media/wish redesign.png": "/static/media/wish redesign.f40363bcca212e79d462.png",
+    "static/media/clean kangaroo.png": "/static/media/clean kangaroo.bd295e4248a096d71650.png",
+    "static/media/when2meet redesign.png": "/static/media/when2meet redesign.14725aa55453e8cb1e76.png",
+    "static/media/hypracycle.png": "/static/media/hypracycle.300e3c5146fd86b1f1e7.png",
+    "static/media/mi-resume-2023.pdf": "/static/media/mi-resume-2023.801094f4eae065752ad3.pdf",
+    "static/media/delorean.png": "/static/media/delorean.e71efa7b5e8a64607c10.png",
+    "static/media/plaome.png": "/static/media/plaome.8f7ddaa5a6459254573c.png",
     "index.html": "/index.html",
-    "precache-manifest.d0f543928472059ff49493131795fd08.js": "/precache-manifest.d0f543928472059ff49493131795fd08.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.bd9d886f.chunk.css.map": "/static/css/main.bd9d886f.chunk.css.map",
-    "static/media/mi-resume.pdf": "/static/media/mi-resume.4c75c4f8.pdf",
-    "static/media/monica.jpg": "/static/media/monica.961be91e.jpg"
-  }
+    "main.f2633e41.css.map": "/static/css/main.f2633e41.css.map",
+    "main.522dd21f.js.map": "/static/js/main.522dd21f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2633e41.css",
+    "static/js/main.522dd21f.js"
+  ]
 }

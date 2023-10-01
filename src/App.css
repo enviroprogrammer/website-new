@@ -41,13 +41,13 @@ html, body, #root, .App {
     flex-flow: column;
 }
 
-.why-photography, .about-my-work h1 {
+.why-photography h1, .about-my-work h1 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
     font-size: 4vw;
 }
 
-.why-photography, .about-my-work p {
+.why-photography p, .about-my-work p {
     font-size: 2vw;
 }
 
