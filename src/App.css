@@ -5,11 +5,50 @@
   text-align: center;
 }
 
+.grid-container, .work-grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+}
+
+/*.work-grid-container {*/
+/*    display: inline-grid;*/
+/*    grid-template-columns: auto auto;*/
+/*    padding: 5px;*/
+/*}*/
+
+.grid-item, .work-grid-item {
+    padding: 5px;
+    text-align: center;
+}
+
+.grid-item img {
+    height: auto;
+    width: 100%;
+}
+
+.work-grid-item img {
+    float: left;
+    width: 60vh;
+    height: 60vh;
+    object-fit: contain;
+}
+
 html, body, #root, .App {
     min-height: 100vh;
     margin: 0;
     display: flex;
     flex-flow: column;
+}
+
+.why-photography, .about-my-work h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 4vw;
+}
+
+.why-photography, .about-my-work p {
+    font-size: 2vw;
 }
 
 body {
@@ -53,15 +92,6 @@ ul {
     padding-top: 15vh;
     width: 90%;
     position: relative;
-    height: 100vh;
-}
-
-.work {
-    height: 100vh;
-}
-
-.photography {
-    height: 100vh;
 }
 
 .name {
@@ -97,7 +127,7 @@ ul {
 }
 
 .welcome {
-    font-size: 3vmin;
+    font-size: 1.5vw;
 }
 
 .fas:hover {

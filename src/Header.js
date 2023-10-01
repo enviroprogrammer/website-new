@@ -1,6 +1,6 @@
 import {Container} from "react-bootstrap";
 import './App.css';
-import me from "./monica.jpg";
+import me from './monica.jpg';
 import React from "react";
 
 export default function Header() {
