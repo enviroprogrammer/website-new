@@ -22,13 +22,13 @@ export default function Work() {
                 <div className="work-grid-container">
                     <div className="work-grid-item"><img src={when2meet} alt="when2meet redesign"/></div>
                     <div className="work-grid-item"><img src={wish} alt="wish redesign"/></div>
-                    <div className="work-grid-item"><img src={plaome} alt="plaome"/></div>
                     <div className="work-grid-item"><img src={hypracycle} alt="hypracycle"/></div>
                     <div className="work-grid-item"><img src={delorean} alt="delorean"/></div>
-                    <div className="work-grid-item"><img src={cleank} alt="clean kangaroo mobile"/></div>
                     <div className="work-grid-item"><img src={cleank_desktop} alt="clean kangaroo desktop"/></div>
-                    <div className="work-grid-item"><img src={impervious} alt="impervious surfaces"/></div>
                     <div className="work-grid-item"><img src={toastmasters} alt="toastmasters election promo"/></div>
+                    <div className="work-grid-item"><img src={plaome} alt="plaome"/></div>
+                    <div className="work-grid-item"><img src={cleank} alt="clean kangaroo mobile"/></div>
+                    <div className="work-grid-item"><img src={impervious} alt="impervious surfaces"/></div>
                 </div>
             </div>
         </Container>
